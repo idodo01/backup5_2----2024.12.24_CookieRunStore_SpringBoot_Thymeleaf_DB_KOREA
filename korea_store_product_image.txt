@@ -1,0 +1,8 @@
+
+CREATE TABLE `product_image` (
+  `no` int NOT NULL AUTO_INCREMENT,
+  `product_no` int NOT NULL,
+  `orginal_filename` varchar(255) NOT NULL,
+  `data` longblob NOT NULL,
+  PRIMARY KEY (`no`)
+)
